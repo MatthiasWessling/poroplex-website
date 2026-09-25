@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.DS_Store
+
+# Confidential source material. Never commit or deploy.
+Background Info/
+.brand-review/
+inspect_pptx.py
+
+# Local environment files
+.env
+.env.*
+!.env.example
