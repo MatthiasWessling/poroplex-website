@@ -37,6 +37,21 @@ website or repository contents.
 - The site has no analytics, third-party fonts, contact form, or cookie requirement in its current form.
 - The static architecture is simple to host and maintain.
 
+### Brand alignment revision
+
+After the first implementation, `Poroplex_Incubation_Pitch_Design_22092026.pptx` was established as
+the design source of truth. The website was revised to use:
+
+- the exact Poroplex wordmark and porous green ring;
+- the deck palette (`#003366`, `#008268`, `#EAF6F0`, `#ECF4FC`);
+- Arial typography, numbered section language, pale blue/green cards, and restrained geometry;
+- the approved hollow-fiber and founder photography from the deck;
+- exact core wording including “PFAS-free. Water-based. Industrially scalable.” and
+  “Safer materials, Cleaner water. A more sustainable industry.”
+
+The website adapts the slide system to responsive web layouts rather than reproducing slide canvases
+literally. Confidential work-plan content remains excluded.
+
 ## Suggestions to proceed
 
 ### Immediate
@@ -63,6 +78,8 @@ website or repository contents.
 - `npm install` — completed; 0 reported vulnerabilities.
 - `npm run build` — passed with Vite; six HTML routes produced.
 - Browser smoke test at `http://127.0.0.1:5173/` — responsive home page rendered successfully.
+- Desktop and mobile visual checks after deck alignment — exact logo, hero image, colors, wording,
+  navigation, and responsive layout rendered successfully.
 - Route check — `/`, `/technology/`, `/impact/`, `/about/`, `/contact/`, and `/privacy/` all returned HTTP 200.
 - IDE lint check for `src/` and `vite.config.js` — no diagnostics.
 - Confidential-term scan of public source — no internal recipes, budgets, scale-up targets, or
