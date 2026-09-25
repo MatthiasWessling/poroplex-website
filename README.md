@@ -2,6 +2,8 @@
 
 Multi-page public website for Poroplex, built as a static Vite project.
 
+**Live website:** https://matthiaswessling.github.io/poroplex-website/
+
 ## Local development
 
 ```bash

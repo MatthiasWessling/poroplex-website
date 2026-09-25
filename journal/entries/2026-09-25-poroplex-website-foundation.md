@@ -52,6 +52,14 @@ the design source of truth. The website was revised to use:
 The website adapts the slide system to responsive web layouts rather than reproducing slide canvases
 literally. Confidential work-plan content remains excluded.
 
+### GitHub Pages launch
+
+The repository was intentionally changed from private to public after explicit approval because the
+connected GitHub plan does not support Pages for private repositories. A GitHub Actions workflow in
+`.github/workflows/deploy-pages.yml` now builds and deploys the site on every push to `main`.
+
+Live site: https://matthiaswessling.github.io/poroplex-website/
+
 ## Suggestions to proceed
 
 ### Immediate
@@ -80,6 +88,8 @@ literally. Confidential work-plan content remains excluded.
 - Browser smoke test at `http://127.0.0.1:5173/` — responsive home page rendered successfully.
 - Desktop and mobile visual checks after deck alignment — exact logo, hero image, colors, wording,
   navigation, and responsive layout rendered successfully.
+- GitHub Pages workflow run `36148096754` — build and deployment completed successfully.
+- Public production URL — loaded over HTTPS with the expected title, navigation, imagery, and content.
 - Route check — `/`, `/technology/`, `/impact/`, `/about/`, `/contact/`, and `/privacy/` all returned HTTP 200.
 - IDE lint check for `src/` and `vite.config.js` — no diagnostics.
 - Confidential-term scan of public source — no internal recipes, budgets, scale-up targets, or
