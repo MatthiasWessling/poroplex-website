@@ -48,6 +48,8 @@ the design source of truth. The website was revised to use:
 - the approved hollow-fiber and founder photography from the deck;
 - exact core wording including “PFAS-free. Water-based. Industrially scalable.” and
   “Safer materials, Cleaner water. A more sustainable industry.”
+- a clearly labeled material roadmap: the current platform is described as PFAS- and BPA-free,
+  while bio-based polymers are identified as a next-generation development direction requiring validation.
 
 The website adapts the slide system to responsive web layouts rather than reproducing slide canvases
 literally. Confidential work-plan content remains excluded.
